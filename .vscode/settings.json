@@ -1,0 +1,13 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "emmet.useInlineCompletions": true,
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.optimizeStylesheetParsing": false,
+    "emmet.preferences": {
+
+        
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
