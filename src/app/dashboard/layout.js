@@ -1,4 +1,4 @@
-import Sideber from "./sideber";
+import Sideber from "./Sideber";
 
 export const metadata = {
     title: 'Dashboard | Next',

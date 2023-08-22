@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import NavLink from './NavLink';
 
 const navLinks = [
     {
@@ -36,7 +37,11 @@ const Navber = () => {
             <ul className='flex items-center justify-center'>
                 {
                     navLinks.map(({ path, title }) => <li className='mx-2' key={path}>
-                        <Link href={path}>{title}</Link>
+                        <NavLink 
+                        exact={path === '/'}
+                        activeClassName="text-blue-500" 
+                        href={path}>{title}
+                        </NavLink>
                     </li>)
                 }
             </ul>
